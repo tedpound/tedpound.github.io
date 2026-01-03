@@ -1,12 +1,29 @@
 ---
-layout: article
-title: Page - Article Header Overlay Background Fill (Immersive + Translucent Header)
+layout: page
+title: "Ted Pound's Portfolio"
+permalink: /
+
+# Immersive full-width header with translucent navbar
 mode: immersive
+
 header:
-  theme: dark
+  theme: dark          # makes the top nav light-on-dark
+
 article_header:
-  type: overlay
+  type: overlay        # overlay style like the sample
+  align: center        # center the title
   theme: dark
-  background_color: '#123'
-  background_image: false
+  background_color: '#203028'   # fallback / overlay color
+  background_image:
+    gradient: 'linear-gradient(135deg, rgba(34, 139, 87,.4), rgba(139, 34, 139,.4))'
+    src: /assets/visit-tech.jpg  # <-- put your big header image here
+
+show_date: false
+show_tags: false
 ---
+      
+## About
+
+Hi, I'm Ted Pound. I'm a mechanical engineer who enjoys control systems,
+simulation, and using code to solve physical problems. This site is a
+portfolio of selected projects from my coursework, labs, and personal work.
