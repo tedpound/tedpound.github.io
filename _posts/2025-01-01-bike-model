@@ -1,13 +1,7 @@
 ---
 layout: article
-title: "Model of Bike System"
+title: "Bike System Model"
 tags: [project]
 categories: [projects]
-
 cover: /assets/bike-diagram.png
-
-article_header:
-  type: cover
-  image:
-    src: /assets/bike-cover.png
 ---
