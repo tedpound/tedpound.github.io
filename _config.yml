@@ -37,7 +37,7 @@ author:
   type      : # "person" (default), "organization"
   name      : Ted Pound
   url       :
-  avatar    : /assets/Headshot.jpg
+  avatar    : /assets/headshot.png
   bio       : I am an amazing person.
   email     : tedgo.pound@gmail.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
