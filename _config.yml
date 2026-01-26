@@ -58,6 +58,8 @@ author:
 repository: tedpound/tedpound.github.io
 repository_tree: master
 
+## => Cursor fade in and out over clickabkle images
+custom_css: assets/css/custom.css
 
 ## => Paths
 ##############################
