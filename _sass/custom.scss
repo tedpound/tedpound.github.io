@@ -1,3 +1,14 @@
 /* start custom scss snippet */
 
+/* Hover-only overlay for Experience card */
+.experience-card .card__image .overlay {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.experience-card .card__image:hover .overlay {
+  opacity: 1;
+}
+
 /* end custom scss snippet */
