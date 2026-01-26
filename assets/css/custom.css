@@ -1,3 +1,4 @@
+body { outline: 10px solid red !important; }
 /* Hover-only overlay for custom cards */
 .card__image .overlay {
   opacity: 0;
