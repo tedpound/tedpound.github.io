@@ -1,0 +1,9 @@
+/* Hover-only overlay for custom cards */
+.card__image .overlay {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card__image:hover .overlay {
+  opacity: 1;
+}
