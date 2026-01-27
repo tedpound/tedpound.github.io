@@ -12,3 +12,13 @@
 }
 
 /* end custom scss snippet */
+
+/* About page headshot: fixed size + circle crop */
+.about-headshot {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;     /* crops instead of stretching */
+  display: inline-block; /* prevents full-width behavior */
+  max-width: none;       /* overrides theme img max-width rules */
+}
