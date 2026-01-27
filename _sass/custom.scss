@@ -27,3 +27,20 @@
 .circle.shadow {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
+
+/* Circular headshot with visible shadow (wrapper-based, avoids clipping issues) */
+.about-headshot-wrap {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden; /* crops to circle */
+  display: inline-block;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
+}
+
+.about-headshot-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; /* removes baseline gap */
+}
