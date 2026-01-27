@@ -22,3 +22,8 @@
   display: inline-block; /* prevents full-width behavior */
   max-width: none;       /* overrides theme img max-width rules */
 }
+
+/* Stronger shadow for circular headshots */
+.circle.shadow {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
