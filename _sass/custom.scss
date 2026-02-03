@@ -1,5 +1,12 @@
 /* start custom scss snippet */
 
+/* Parallax scrolling effect for front page header */
+.article__header--overlay .hero {
+  background-attachment: fixed !important;
+  background-position: center center !important;
+  background-size: cover !important;
+}
+
 /* Hover-only overlay for Experience card */
 .experience-card .card__image .overlay {
   opacity: 0;
@@ -10,8 +17,6 @@
 .experience-card .card__image:hover .overlay {
   opacity: 1;
 }
-
-/* end custom scss snippet */
 
 /* About page headshot: fixed size + circle crop */
 .about-headshot {
@@ -44,3 +49,5 @@
   object-fit: cover;
   display: block; /* removes baseline gap */
 }
+
+/* end custom scss snippet */
