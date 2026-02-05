@@ -5,6 +5,12 @@
   background-attachment: fixed !important;
   background-position: center center !important;
   background-size: cover !important;
+  min-height: 100vh !important;
+}
+
+/* Make the overlay inside the hero also full height */
+.article__header--overlay .hero .overlay {
+  min-height: 100vh !important;
 }
 
 /* Hover-only overlay for Experience card */
