@@ -50,4 +50,43 @@
   display: block; /* removes baseline gap */
 }
 
+/* Larger mail and LinkedIn icons */
+.mail-button,
+.linkedin-button {
+  transform: scale(1.5);
+  margin: 0 0.5rem; /* Add margin to prevent overlap */
+}
+
+/* Prevent scrollbar in footer contact section */
+.footer {
+  overflow: visible !important;
+}
+
+.footer .main {
+  overflow: visible !important;
+}
+
+.footer__author-links {
+  overflow: visible !important;
+  max-height: none !important;
+  height: auto !important;
+  margin-bottom: 1.5rem;
+}
+
+.footer .author-links {
+  overflow: visible !important;
+  max-height: none !important;
+  height: auto !important;
+}
+
+.footer .author-links .menu {
+  overflow: visible !important;
+  white-space: normal;
+  flex-wrap: wrap !important;
+  justify-content: center;
+  gap: 0.5rem;
+  max-height: none !important;
+  height: auto !important;
+}
+
 /* end custom scss snippet */

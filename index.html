@@ -23,7 +23,7 @@ show_tags: false
 ---
 
 <!-- ABOUT ME SECTION -->
-<h2 style="text-align:center;">About</h2>      
+<h2 id="about" style="text-align:center;">About</h2>
 <hr>
 
 <div class="grid grid--p-4" style="align-items:center; margin-top:2rem; margin-bottom:1rem">
@@ -51,7 +51,7 @@ show_tags: false
 </div>
       
 <!-- EXPERIENCE SECTION, TMD -->
-<h2 style="text-align:center;">Experience</h2>
+<h2 id="experience" style="text-align:center;">Experience</h2>
 <hr>
 
 <div class="grid grid--p-4" style="align-items:center; margin-top:2rem; margin-bottom:1rem">
@@ -147,6 +147,70 @@ show_tags: false
         </div>
       </div>
     </a>
+  </div>
+
+</div>
+
+<!-- PROJECTS SECTION -->
+<h2 id="projects" style="text-align:center; margin-top:3rem;">Projects</h2>
+<hr>
+
+<!-- PROJECT: Energy Systems -->
+<div class="grid grid--p-4" style="align-items:center; margin-top:2rem; margin-bottom:1rem">
+
+  <div class="cell cell--12 cell--md-7">
+    <h3>Ice Rink Energy System Modeling</h3>
+    <p>
+      Modeled the energy use of an indoor ice rink by analyzing dehumidification,
+      ice slab heat transfer, and refrigeration as a coupled system. Developed a
+      steady-state model to estimate cooling loads and operating costs.
+    </p>
+  </div>
+
+  <div class="cell cell--12 cell--md-5" style="text-align:center;">
+    <a href="{{ '/projects/energy-systems/' | relative_url }}">
+      <div class="card card--flat experience-card">
+        <div class="card__image">
+          <img src="{{ '/assets/website-pics/energy-systems/energy-systems-icon.png' | relative_url }}" />
+          <div class="overlay overlay--center overlay--dark">
+            <div>
+              <h3 style="margin:0;">Read More</h3>
+              <p style="margin-top:0.5rem;">Energy Systems</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+
+</div>
+
+<!-- PROJECT: Bike Model -->
+<div class="grid grid--p-4" style="align-items:center;">
+
+  <div class="cell cell--12 cell--md-5" style="text-align:center;">
+    <a href="{{ '/projects/bike-model/' | relative_url }}">
+      <div class="card card--flat experience-card">
+        <div class="card__image">
+          <img src="{{ '/assets/website-pics/bike-model/bike-model-icon.png' | relative_url }}" />
+          <div class="overlay overlay--center overlay--dark">
+            <div>
+              <h3 style="margin:0;">Read More</h3>
+              <p style="margin-top:0.5rem;">Bike Model</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="cell cell--12 cell--md-7">
+    <h3>Bike System Model</h3>
+    <p>
+      Modeled and analyzed ground vehicle dynamics using a nonlinear state-space framework.
+      Compared nonlinear and linearized models through MATLAB simulation to evaluate
+      control design tradeoffs.
+    </p>
   </div>
 
 </div>
